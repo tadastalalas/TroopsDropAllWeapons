@@ -9,7 +9,7 @@
   <ModuleType value="Community" />
   <Url value="$moduleurl$" />
   <DependedModules>
-    <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.2.2" />
+    <DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.3.3" />
     <DependedModule Id="Bannerlord.MBOptionScreen" DependentVersion="v5.11.3" />
     <DependedModule Id="Native" />
     <DependedModule Id="SandBoxCore" />

@@ -21,14 +21,18 @@ namespace TroopsDropAllWeapons
                  slot < EquipmentIndex.ExtraWeaponSlot;
                  slot++)
             {
-                if (affectedAgent.Equipment[slot].IsEmpty)
+                var weapon = affectedAgent.Equipment[slot];
+                if (weapon.IsEmpty)
                     continue;
 
-                var primaryWeapon = affectedAgent.Equipment[slot].Item?.PrimaryWeapon;
+                var primaryWeapon = weapon.Item?.PrimaryWeapon;
                 if (primaryWeapon == null)
                     continue;
 
                 if (!ShouldDrop(primaryWeapon.WeaponClass, settings))
+                    continue;
+
+                if (IsEmptyConsumableRanged(primaryWeapon, weapon, settings))
                     continue;
 
                 try
@@ -40,6 +44,17 @@ namespace TroopsDropAllWeapons
                     
                 }
             }
+        }
+
+        private static bool IsEmptyConsumableRanged(WeaponComponentData primaryWeapon, MissionWeapon weapon, MCMSettings? settings)
+        {
+            if (settings == null || !settings.DoNotDropEmptyAmmo)
+                return false;
+
+            if (!primaryWeapon.IsConsumable || !primaryWeapon.IsRangedWeapon)
+                return false;
+
+            return weapon.Amount == 0;
         }
 
         private static bool ShouldDrop(WeaponClass weaponClass, MCMSettings? settings)

@@ -1,23 +1,26 @@
 ﻿using HarmonyLib;
+using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
 namespace TroopsDropAllWeapons
 {
     public class SubModule : MBSubModuleBase
     {
-        private Harmony _harmony;
+        private Harmony? _harmony;
 
-        protected override void OnSubModuleLoad()
+        public override void OnGameInitializationFinished(Game game)
         {
-            base.OnSubModuleLoad();
+            base.OnGameInitializationFinished(game);
             _harmony = new Harmony("TroopsDropAllWeapons");
             _harmony.PatchAll();
+            ArtemCoreCompatibilityPatch.TryApply(_harmony);
         }
 
-        protected override void OnSubModuleUnloaded()
+        public override void OnGameEnd(Game game)
         {
-            base.OnSubModuleUnloaded();
+            base.OnGameEnd(game);
             _harmony?.UnpatchAll("TroopsDropAllWeapons");
+            ArtemCoreCompatibilityPatch.TryUnpatch(_harmony);
         }
     }
 }

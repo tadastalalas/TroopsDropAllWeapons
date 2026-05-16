@@ -26,6 +26,14 @@ namespace TroopsDropAllWeapons
         [SettingPropertyGroup("Ranged Ammo", GroupOrder = 0)]
         public bool DropThrowingWeapons { get; set; } = true;
 
+        [SettingPropertyBool("Do Not Drop Empty Quivers/Pouches", Order = 2, RequireRestart = false, HintText = "If an arrow/bolt quiver or throwing weapon pouch is empty, skip dropping it. [Default: enabled]")]
+        [SettingPropertyGroup("Ranged Ammo", GroupOrder = 0)]
+        public bool DoNotDropEmptyAmmo { get; set; } = true;
+
+        [SettingPropertyBool("Also Apply To Vanilla Drops", Order = 3, RequireRestart = false, HintText = "Intercept vanilla empty-quiver drops and remove them from equipment instead of spawning them on the ground. Improves Mission performance. [Default: enabled]")]
+        [SettingPropertyGroup("Ranged Ammo", GroupOrder = 0)]
+        public bool ApplyEmptyAmmoCheckToVanilla { get; set; } = true;
+
         [SettingPropertyBool("Drop Bows/Crossbows", Order = 0, RequireRestart = false, HintText = "Drop bows, crossbows, and slings on death. [Default: disabled]")]
         [SettingPropertyGroup("Ranged Weapons", GroupOrder = 1)]
         public bool DropBowsCrossbows { get; set; } = false;

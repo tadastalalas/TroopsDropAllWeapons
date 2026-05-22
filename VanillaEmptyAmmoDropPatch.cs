@@ -7,7 +7,7 @@ namespace TroopsDropAllWeapons
     [HarmonyPatch(typeof(Agent), nameof(Agent.DropItem))]
     internal static class VanillaEmptyAmmoDropPatch
     {
-        private static bool Prefix(Agent __instance, EquipmentIndex itemIndex)
+        private static bool Prefix(Agent __instance, EquipmentIndex itemIndex, WeaponClass pickedUpItemType)
         {
             var settings = MCMSettings.Instance;
             if (settings == null || !settings.ApplyEmptyAmmoCheckToVanilla)

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Deutsch" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Truppen Lassen Alle Waffen Fallen" />
+		<string id="TDAW_5d6E7f8" text="Fernkampfmunition" />
+		<string id="TDAW_9g0H1i2" text="Fernkampfwaffen" />
+		<string id="TDAW_3j4K5l6" text="Nahkampfwaffen" />
+		<string id="TDAW_7m8N9o0" text="Schilde" />
+		<string id="TDAW_p1Q2r3S" text="Pfeile/Bolzen Fallen Lassen" />
+		<string id="TDAW_t4U5v6W" text="Lässt beim Tod Pfeile, Bolzen und Schleudersteine fallen. [Standard: aktiviert]" />
+		<string id="TDAW_x7Y8z9A" text="Wurfwaffen Fallen Lassen" />
+		<string id="TDAW_b1C2d3E" text="Lässt beim Tod Wurfäxte, Wurfmesser, Speere und Steine fallen. [Standard: aktiviert]" />
+		<string id="TDAW_f4G5h6I" text="Leere Köcher/Beutel Nicht Fallen Lassen" />
+		<string id="TDAW_j7K8l9M" text="Wenn ein Pfeil-/Bolzenköcher oder ein Wurfwaffenbeutel leer ist, wird das Fallenlassen übersprungen. [Standard: aktiviert]" />
+		<string id="TDAW_n1O2p3Q" text="Auch auf Vanilla-Drops Anwenden" />
+		<string id="TDAW_r4S5t6U" text="Fängt Vanilla-Drops leerer Köcher ab und entfernt sie aus der Ausrüstung, anstatt sie auf dem Boden zu erzeugen. Verbessert die Missionsleistung. [Standard: aktiviert]" />
+		<string id="TDAW_v7W8x9Y" text="Bögen/Armbrüste Fallen Lassen" />
+		<string id="TDAW_z1A2b3C" text="Lässt beim Tod Bögen, Armbrüste und Schleudern fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_d4E5f6G" text="Nahkampfwaffen Fallen Lassen" />
+		<string id="TDAW_h7I8j9K" text="Lässt beim Tod Schwerter, Äxte, Streitkolben, Stangenwaffen, Dolche und andere Nahkampfwaffen fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_l1M2n3O" text="Schilde Fallen Lassen" />
+		<string id="TDAW_p4Q5r6S" text="Lässt beim Tod Schilde fallen. [Standard: deaktiviert]" />
+	</strings>
+</base>

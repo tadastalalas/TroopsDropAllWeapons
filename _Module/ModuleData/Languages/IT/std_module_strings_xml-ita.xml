@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Italiano" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Le Truppe Lasciano Cadere Tutte le Armi" />
+		<string id="TDAW_5d6E7f8" text="Munizioni a Distanza" />
+		<string id="TDAW_9g0H1i2" text="Armi a Distanza" />
+		<string id="TDAW_3j4K5l6" text="Armi da Mischia" />
+		<string id="TDAW_7m8N9o0" text="Scudi" />
+		<string id="TDAW_p1Q2r3S" text="Lascia Cadere Frecce/Dardi" />
+		<string id="TDAW_t4U5v6W" text="Lascia cadere frecce, dardi e pietre da fionda alla morte. [Predefinito: abilitato]" />
+		<string id="TDAW_x7Y8z9A" text="Lascia Cadere Armi da Lancio" />
+		<string id="TDAW_b1C2d3E" text="Lascia cadere asce da lancio, coltelli da lancio, giavellotti e pietre alla morte. [Predefinito: abilitato]" />
+		<string id="TDAW_f4G5h6I" text="Non Lasciare Cadere Faretre/Sacche Vuote" />
+		<string id="TDAW_j7K8l9M" text="Se una faretra di frecce/dardi o una sacca di armi da lancio è vuota, salta la caduta. [Predefinito: abilitato]" />
+		<string id="TDAW_n1O2p3Q" text="Applica Anche ai Drop Vanilla" />
+		<string id="TDAW_r4S5t6U" text="Intercetta i drop vanilla delle faretre vuote e li rimuove dall'equipaggiamento invece di farli comparire a terra. Migliora le prestazioni della missione. [Predefinito: abilitato]" />
+		<string id="TDAW_v7W8x9Y" text="Lascia Cadere Archi/Balestre" />
+		<string id="TDAW_z1A2b3C" text="Lascia cadere archi, balestre e fionde alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_d4E5f6G" text="Lascia Cadere Armi da Mischia" />
+		<string id="TDAW_h7I8j9K" text="Lascia cadere spade, asce, mazze, aste, pugnali e altre armi da mischia alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_l1M2n3O" text="Lascia Cadere Scudi" />
+		<string id="TDAW_p4Q5r6S" text="Lascia cadere gli scudi alla morte. [Predefinito: disabilitato]" />
+	</strings>
+</base>

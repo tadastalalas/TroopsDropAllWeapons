@@ -46,7 +46,7 @@ namespace TroopsDropAllWeapons
             }
         }
 
-        private static bool IsEmptyConsumableRanged(WeaponComponentData primaryWeapon, MissionWeapon weapon, MCMSettings? settings)
+        internal static bool IsEmptyConsumableRanged(WeaponComponentData primaryWeapon, MissionWeapon weapon, MCMSettings? settings)
         {
             if (settings == null || !settings.DoNotDropEmptyAmmo)
                 return false;
@@ -57,7 +57,7 @@ namespace TroopsDropAllWeapons
             return weapon.Amount == 0;
         }
 
-        private static bool ShouldDrop(WeaponClass weaponClass, MCMSettings? settings)
+        internal static bool ShouldDrop(WeaponClass weaponClass, MCMSettings? settings)
         {
             if (settings == null)
                 return true;

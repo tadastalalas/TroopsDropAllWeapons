@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Français" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Les Troupes Laissent Tomber Toutes les Armes" />
+		<string id="TDAW_5d6E7f8" text="Munitions à Distance" />
+		<string id="TDAW_9g0H1i2" text="Armes à Distance" />
+		<string id="TDAW_3j4K5l6" text="Armes de Mêlée" />
+		<string id="TDAW_7m8N9o0" text="Boucliers" />
+		<string id="TDAW_p1Q2r3S" text="Faire Tomber les Flèches/Carreaux" />
+		<string id="TDAW_t4U5v6W" text="Fait tomber les flèches, carreaux et pierres de fronde à la mort. [Par défaut : activé]" />
+		<string id="TDAW_x7Y8z9A" text="Faire Tomber les Armes de Jet" />
+		<string id="TDAW_b1C2d3E" text="Fait tomber les haches de lancer, couteaux de lancer, javelots et pierres à la mort. [Par défaut : activé]" />
+		<string id="TDAW_f4G5h6I" text="Ne Pas Faire Tomber les Carquois/Sacoches Vides" />
+		<string id="TDAW_j7K8l9M" text="Si un carquois de flèches/carreaux ou une sacoche d'armes de jet est vide, ignore sa chute. [Par défaut : activé]" />
+		<string id="TDAW_n1O2p3Q" text="Appliquer Aussi aux Chutes Natives du Jeu" />
+		<string id="TDAW_r4S5t6U" text="Intercepte les chutes de carquois vides natives du jeu et les retire de l'équipement au lieu de les faire apparaître au sol. Améliore les performances de la mission. [Par défaut : activé]" />
+		<string id="TDAW_v7W8x9Y" text="Faire Tomber les Arcs/Arbalètes" />
+		<string id="TDAW_z1A2b3C" text="Fait tomber les arcs, arbalètes et frondes à la mort. [Par défaut : désactivé]" />
+		<string id="TDAW_d4E5f6G" text="Faire Tomber les Armes de Mêlée" />
+		<string id="TDAW_h7I8j9K" text="Fait tomber les épées, haches, masses, armes d'hast, dagues et autres armes de mêlée à la mort. [Par défaut : désactivé]" />
+		<string id="TDAW_l1M2n3O" text="Faire Tomber les Boucliers" />
+		<string id="TDAW_p4Q5r6S" text="Fait tomber les boucliers à la mort. [Par défaut : désactivé]" />
+	</strings>
+</base>

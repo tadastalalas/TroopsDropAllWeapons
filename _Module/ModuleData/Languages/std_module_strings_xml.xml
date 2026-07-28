@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="English" />
+    </tags>
+    <strings>
+        <string id="TDAW_1a2B3c4" text="Troops Drop All Weapons" />
+        <string id="TDAW_5d6E7f8" text="Ranged Ammo" />
+        <string id="TDAW_9g0H1i2" text="Ranged Weapons" />
+        <string id="TDAW_3j4K5l6" text="Melee Weapons" />
+        <string id="TDAW_7m8N9o0" text="Shields" />
+        <string id="TDAW_p1Q2r3S" text="Drop Arrows/Bolts" />
+        <string id="TDAW_t4U5v6W" text="Drop arrows, bolts, and sling stones on death. [Default: enabled]" />
+        <string id="TDAW_x7Y8z9A" text="Drop Throwing Weapons" />
+        <string id="TDAW_b1C2d3E" text="Drop throwing axes, throwing knives, javelins, and stones on death. [Default: enabled]" />
+        <string id="TDAW_f4G5h6I" text="Do Not Drop Empty Quivers/Pouches" />
+        <string id="TDAW_j7K8l9M" text="If an arrow/bolt quiver or throwing weapon pouch is empty, skip dropping it. [Default: enabled]" />
+        <string id="TDAW_n1O2p3Q" text="Also Apply To Vanilla Drops" />
+        <string id="TDAW_r4S5t6U" text="Intercept vanilla empty-quiver drops and remove them from equipment instead of spawning them on the ground. Improves Mission performance. [Default: enabled]" />
+        <string id="TDAW_v7W8x9Y" text="Drop Bows/Crossbows" />
+        <string id="TDAW_z1A2b3C" text="Drop bows, crossbows, and slings on death. [Default: disabled]" />
+        <string id="TDAW_d4E5f6G" text="Drop Melee Weapons" />
+        <string id="TDAW_h7I8j9K" text="Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: disabled]" />
+        <string id="TDAW_l1M2n3O" text="Drop Shields" />
+        <string id="TDAW_p4Q5r6S" text="Drop shields on death. [Default: disabled]" />
+    </strings>
+</base>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="日本語" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="兵士が全ての武器を落とす" />
+		<string id="TDAW_5d6E7f8" text="遠隔武器の弾薬" />
+		<string id="TDAW_9g0H1i2" text="遠隔武器" />
+		<string id="TDAW_3j4K5l6" text="近接武器" />
+		<string id="TDAW_7m8N9o0" text="盾" />
+		<string id="TDAW_p1Q2r3S" text="矢/ボルトを落とす" />
+		<string id="TDAW_t4U5v6W" text="死亡時に矢、ボルト、投石を落とします。[デフォルト: 有効]" />
+		<string id="TDAW_x7Y8z9A" text="投擲武器を落とす" />
+		<string id="TDAW_b1C2d3E" text="死亡時に投げ斧、投げナイフ、ジャベリン、石を落とします。[デフォルト: 有効]" />
+		<string id="TDAW_f4G5h6I" text="空の矢筒/袋は落とさない" />
+		<string id="TDAW_j7K8l9M" text="矢筒やボルトケース、投擲武器袋が空の場合、落とすのをスキップします。[デフォルト: 有効]" />
+		<string id="TDAW_n1O2p3Q" text="バニラのドロップにも適用する" />
+		<string id="TDAW_r4S5t6U" text="バニラの空の矢筒ドロップを地面に生成する代わりに、装備から取り除きます。ミッションのパフォーマンスが向上します。[デフォルト: 有効]" />
+		<string id="TDAW_v7W8x9Y" text="弓/クロスボウを落とす" />
+		<string id="TDAW_z1A2b3C" text="死亡時に弓、クロスボウ、スリングを落とします。[デフォルト: 無効]" />
+		<string id="TDAW_d4E5f6G" text="近接武器を落とす" />
+		<string id="TDAW_h7I8j9K" text="死亡時に剣、斧、メイス、ポールアーム、ダガーなどの近接武器を落とします。[デフォルト: 無効]" />
+		<string id="TDAW_l1M2n3O" text="盾を落とす" />
+		<string id="TDAW_p4Q5r6S" text="死亡時に盾を落とします。[デフォルト: 無効]" />
+	</strings>
+</base>

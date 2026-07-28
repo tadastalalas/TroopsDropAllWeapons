@@ -55,18 +55,23 @@ namespace TroopsDropAllWeapons
                 return true;
 
             var settings = MCMSettings.Instance;
-            if (settings == null || !settings.DoNotDropEmptyAmmo)
-                return true;
 
-            for (EquipmentIndex slot = EquipmentIndex.ExtraWeaponSlot;
-                 slot >= EquipmentIndex.WeaponItemBeginSlot;
-                 slot--)
+            for (EquipmentIndex slot = EquipmentIndex.WeaponItemBeginSlot;
+                 slot < EquipmentIndex.ExtraWeaponSlot;
+                 slot++)
             {
                 var weapon = agent.Equipment[slot];
                 if (weapon.IsEmpty)
                     continue;
 
-                if (IsEmptyConsumableRangedSlot(weapon))
+                var primaryWeapon = weapon.Item?.PrimaryWeapon;
+                if (primaryWeapon == null)
+                    continue;
+
+                if (!DropWeaponPatch.ShouldDrop(primaryWeapon.WeaponClass, settings))
+                    continue;
+
+                if (DropWeaponPatch.IsEmptyConsumableRanged(primaryWeapon, weapon, settings))
                 {
                     agent.RemoveEquippedWeapon(slot);
                     continue;
@@ -74,21 +79,14 @@ namespace TroopsDropAllWeapons
 
                 try
                 {
-                    agent.DropItem(slot, WeaponClass.Undefined);
+                    agent.DropItem(slot, primaryWeapon.WeaponClass);
                 }
-                catch { }
+                catch
+                {
+                }
             }
 
             return false;
-        }
-
-        private static bool IsEmptyConsumableRangedSlot(MissionWeapon weapon)
-        {
-            var primary = weapon.Item?.PrimaryWeapon;
-            if (primary == null)
-                return false;
-
-            return primary.IsConsumable && primary.IsRangedWeapon && weapon.Amount == 0;
         }
     }
 }

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Español (LA)" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Las Tropas Sueltan Todas las Armas" />
+		<string id="TDAW_5d6E7f8" text="Munición a Distancia" />
+		<string id="TDAW_9g0H1i2" text="Armas a Distancia" />
+		<string id="TDAW_3j4K5l6" text="Armas Cuerpo a Cuerpo" />
+		<string id="TDAW_7m8N9o0" text="Escudos" />
+		<string id="TDAW_p1Q2r3S" text="Soltar Flechas/Virotes" />
+		<string id="TDAW_t4U5v6W" text="Suelta flechas, virotes y piedras de honda al morir. [Predeterminado: activado]" />
+		<string id="TDAW_x7Y8z9A" text="Soltar Armas Arrojadizas" />
+		<string id="TDAW_b1C2d3E" text="Suelta hachas arrojadizas, cuchillos arrojadizos, jabalinas y piedras al morir. [Predeterminado: activado]" />
+		<string id="TDAW_f4G5h6I" text="No Soltar Carcajes/Bolsas Vacías" />
+		<string id="TDAW_j7K8l9M" text="Si un carcaj de flechas/virotes o una bolsa de armas arrojadizas está vacía, omite soltarla. [Predeterminado: activado]" />
+		<string id="TDAW_n1O2p3Q" text="Aplicar También a las Caídas Originales" />
+		<string id="TDAW_r4S5t6U" text="Intercepta las caídas de carcajes vacíos originales y las elimina del equipo en lugar de generarlas en el suelo. Mejora el rendimiento de la misión. [Predeterminado: activado]" />
+		<string id="TDAW_v7W8x9Y" text="Soltar Arcos/Ballestas" />
+		<string id="TDAW_z1A2b3C" text="Suelta arcos, ballestas y hondas al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_d4E5f6G" text="Soltar Armas Cuerpo a Cuerpo" />
+		<string id="TDAW_h7I8j9K" text="Suelta espadas, hachas, mazas, lanzas, dagas y otras armas cuerpo a cuerpo al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_l1M2n3O" text="Soltar Escudos" />
+		<string id="TDAW_p4Q5r6S" text="Suelta escudos al morir. [Predeterminado: desactivado]" />
+	</strings>
+</base>

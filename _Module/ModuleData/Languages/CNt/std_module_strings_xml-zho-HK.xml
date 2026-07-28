@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="繁體中文" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="士兵掉落所有武器" />
+		<string id="TDAW_5d6E7f8" text="遠程彈藥" />
+		<string id="TDAW_9g0H1i2" text="遠程武器" />
+		<string id="TDAW_3j4K5l6" text="近戰武器" />
+		<string id="TDAW_7m8N9o0" text="盾牌" />
+		<string id="TDAW_p1Q2r3S" text="掉落箭矢/弩箭" />
+		<string id="TDAW_t4U5v6W" text="死亡時掉落箭矢、弩箭和投石索石彈。[預設：啟用]" />
+		<string id="TDAW_x7Y8z9A" text="掉落投擲武器" />
+		<string id="TDAW_b1C2d3E" text="死亡時掉落投斧、飛刀、標槍和石塊。[預設：啟用]" />
+		<string id="TDAW_f4G5h6I" text="不掉落空箭袋/彈藥袋" />
+		<string id="TDAW_j7K8l9M" text="如果箭袋、弩箭袋或投擲武器袋為空，則跳過掉落。[預設：啟用]" />
+		<string id="TDAW_n1O2p3Q" text="同時套用於原版掉落" />
+		<string id="TDAW_r4S5t6U" text="攔截原版的空箭袋掉落，將其從裝備中移除，而非生成到地面上。可提升任務效能。[預設：啟用]" />
+		<string id="TDAW_v7W8x9Y" text="掉落弓/弩" />
+		<string id="TDAW_z1A2b3C" text="死亡時掉落弓、弩和投石索。[預設：停用]" />
+		<string id="TDAW_d4E5f6G" text="掉落近戰武器" />
+		<string id="TDAW_h7I8j9K" text="死亡時掉落劍、斧、錘、長桿武器、匕首及其他近戰武器。[預設：停用]" />
+		<string id="TDAW_l1M2n3O" text="掉落盾牌" />
+		<string id="TDAW_p4Q5r6S" text="死亡時掉落盾牌。[預設：停用]" />
+	</strings>
+</base>

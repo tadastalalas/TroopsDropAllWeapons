@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Português (BR)" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Tropas Derrubam Todas as Armas" />
+		<string id="TDAW_5d6E7f8" text="Munição à Distância" />
+		<string id="TDAW_9g0H1i2" text="Armas à Distância" />
+		<string id="TDAW_3j4K5l6" text="Armas Corpo a Corpo" />
+		<string id="TDAW_7m8N9o0" text="Escudos" />
+		<string id="TDAW_p1Q2r3S" text="Derrubar Flechas/Virotes" />
+		<string id="TDAW_t4U5v6W" text="Derruba flechas, virotes e pedras de funda ao morrer. [Padrão: ativado]" />
+		<string id="TDAW_x7Y8z9A" text="Derrubar Armas de Arremesso" />
+		<string id="TDAW_b1C2d3E" text="Derruba machados de arremesso, facas de arremesso, azagaias e pedras ao morrer. [Padrão: ativado]" />
+		<string id="TDAW_f4G5h6I" text="Não Derrubar Aljavas/Bolsas Vazias" />
+		<string id="TDAW_j7K8l9M" text="Se uma aljava de flechas/virotes ou uma bolsa de armas de arremesso estiver vazia, não a derruba. [Padrão: ativado]" />
+		<string id="TDAW_n1O2p3Q" text="Aplicar Também às Quedas Originais do Jogo" />
+		<string id="TDAW_r4S5t6U" text="Intercepta as quedas de aljavas vazias do jogo original e as remove do equipamento em vez de gerá-las no chão. Melhora o desempenho da missão. [Padrão: ativado]" />
+		<string id="TDAW_v7W8x9Y" text="Derrubar Arcos/Bestas" />
+		<string id="TDAW_z1A2b3C" text="Derruba arcos, bestas e fundas ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_d4E5f6G" text="Derrubar Armas Corpo a Corpo" />
+		<string id="TDAW_h7I8j9K" text="Derruba espadas, machados, maças, lanças, adagas e outras armas corpo a corpo ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_l1M2n3O" text="Derrubar Escudos" />
+		<string id="TDAW_p4Q5r6S" text="Derruba escudos ao morrer. [Padrão: desativado]" />
+	</strings>
+</base>

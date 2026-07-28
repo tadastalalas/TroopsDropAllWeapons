@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Türkçe" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Birlikler Tüm Silahları Düşürür" />
+		<string id="TDAW_5d6E7f8" text="Menzilli Cephane" />
+		<string id="TDAW_9g0H1i2" text="Menzilli Silahlar" />
+		<string id="TDAW_3j4K5l6" text="Yakın Dövüş Silahları" />
+		<string id="TDAW_7m8N9o0" text="Kalkanlar" />
+		<string id="TDAW_p1Q2r3S" text="Okları/Boltları Düşür" />
+		<string id="TDAW_t4U5v6W" text="Ölümde ok, bolt ve sapan taşlarını düşür. [Varsayılan: etkin]" />
+		<string id="TDAW_x7Y8z9A" text="Fırlatma Silahlarını Düşür" />
+		<string id="TDAW_b1C2d3E" text="Ölümde fırlatma baltalarını, fırlatma bıçaklarını, cirit ve taşları düşür. [Varsayılan: etkin]" />
+		<string id="TDAW_f4G5h6I" text="Boş Ok Kılıflarını/Keseleri Düşürme" />
+		<string id="TDAW_j7K8l9M" text="Bir ok/bolt kılıfı veya fırlatma silahı kesesi boşsa, düşürmeyi atla. [Varsayılan: etkin]" />
+		<string id="TDAW_n1O2p3Q" text="Vanilla Düşürmelerine de Uygula" />
+		<string id="TDAW_r4S5t6U" text="Vanilla'nın boş kılıf düşürmelerini yakalayıp yere düşürmek yerine ekipmandan kaldırır. Görev performansını artırır. [Varsayılan: etkin]" />
+		<string id="TDAW_v7W8x9Y" text="Yayları/Arbaletleri Düşür" />
+		<string id="TDAW_z1A2b3C" text="Ölümde yayları, arbaletleri ve sapanları düşür. [Varsayılan: devre dışı]" />
+		<string id="TDAW_d4E5f6G" text="Yakın Dövüş Silahlarını Düşür" />
+		<string id="TDAW_h7I8j9K" text="Ölümde kılıçları, baltaları, gürzleri, mızrakları, hançerleri ve diğer yakın dövüş silahlarını düşür. [Varsayılan: devre dışı]" />
+		<string id="TDAW_l1M2n3O" text="Kalkanları Düşür" />
+		<string id="TDAW_p4Q5r6S" text="Ölümde kalkanları düşür. [Varsayılan: devre dışı]" />
+	</strings>
+</base>

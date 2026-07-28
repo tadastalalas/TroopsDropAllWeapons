@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Polski" />
+	</tags>
+	<strings>
+		<string id="TDAW_1a2B3c4" text="Oddziały Upuszczają Całą Broń" />
+		<string id="TDAW_5d6E7f8" text="Amunicja Dystansowa" />
+		<string id="TDAW_9g0H1i2" text="Broń Dystansowa" />
+		<string id="TDAW_3j4K5l6" text="Broń Do Walki Wręcz" />
+		<string id="TDAW_7m8N9o0" text="Tarcze" />
+		<string id="TDAW_p1Q2r3S" text="Upuszczaj Strzały/Bełty" />
+		<string id="TDAW_t4U5v6W" text="Upuszcza strzały, bełty i kamienie z procy po śmierci. [Domyślnie: włączone]" />
+		<string id="TDAW_x7Y8z9A" text="Upuszczaj Broń Miotaną" />
+		<string id="TDAW_b1C2d3E" text="Upuszcza topory do rzucania, noże do rzucania, oszczepy i kamienie po śmierci. [Domyślnie: włączone]" />
+		<string id="TDAW_f4G5h6I" text="Nie Upuszczaj Pustych Kołczanów/Sakiew" />
+		<string id="TDAW_j7K8l9M" text="Jeśli kołczan na strzały/bełty lub sakiewka z bronią miotaną jest pusta, pomiń jej upuszczenie. [Domyślnie: włączone]" />
+		<string id="TDAW_n1O2p3Q" text="Zastosuj Również do Domyślnych Upuszczeń Gry" />
+		<string id="TDAW_r4S5t6U" text="Przechwytuje domyślne upuszczenia pustych kołczanów gry i usuwa je z ekwipunku zamiast tworzyć je na ziemi. Poprawia wydajność misji. [Domyślnie: włączone]" />
+		<string id="TDAW_v7W8x9Y" text="Upuszczaj Łuki/Kusze" />
+		<string id="TDAW_z1A2b3C" text="Upuszcza łuki, kusze i procy po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_d4E5f6G" text="Upuszczaj Broń Do Walki Wręcz" />
+		<string id="TDAW_h7I8j9K" text="Upuszcza miecze, topory, buzdygany, drzewca, sztylety i inną broń do walki wręcz po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_l1M2n3O" text="Upuszczaj Tarcze" />
+		<string id="TDAW_p4Q5r6S" text="Upuszcza tarcze po śmierci. [Domyślnie: wyłączone]" />
+	</strings>
+</base>

@@ -1,5 +1,7 @@
+using System;
 using HarmonyLib;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace TroopsDropAllWeapons
@@ -7,12 +9,20 @@ namespace TroopsDropAllWeapons
     [HarmonyPatch(typeof(Mission), "OnAgentRemoved")]
     internal static class DropWeaponPatch
     {
-        private static void Postfix(Agent affectedAgent)
+        private static bool _dropFailureLogged;
+
+        private static void Postfix(Agent affectedAgent, AgentState agentState)
         {
-            if (!affectedAgent.IsHuman)
+            if (GameNetwork.IsClientOrReplay || agentState == AgentState.Routed)
+                return;
+
+            if (affectedAgent == null || !affectedAgent.IsHuman)
                 return;
 
             if (affectedAgent.AgentVisuals == null)
+                return;
+
+            if ((affectedAgent.GetAgentFlags() & AgentFlag.CanWieldWeapon) == 0)
                 return;
 
             var settings = MCMSettings.Instance;
@@ -38,12 +48,22 @@ namespace TroopsDropAllWeapons
                 try
                 {
                     affectedAgent.DropItem(slot, primaryWeapon.WeaponClass);
+                    MissionDiagnosticsPatch.CountModDrop();
                 }
-                catch
+                catch (Exception e)
                 {
-                    
+                    LogDropFailure(e);
                 }
             }
+        }
+        
+        internal static void LogDropFailure(Exception e)
+        {
+            if (_dropFailureLogged)
+                return;
+
+            _dropFailureLogged = true;
+            Debug.Print($"[TroopsDropAllWeapons] DropItem failed: {e}", 0, Debug.DebugColor.Red);
         }
 
         internal static bool IsEmptyConsumableRanged(WeaponComponentData primaryWeapon, MissionWeapon weapon, MCMSettings? settings)

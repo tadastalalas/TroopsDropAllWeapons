@@ -46,5 +46,9 @@ namespace TroopsDropAllWeapons
         [SettingPropertyBool("{=TDAW_l1M2n3O}Drop Shields", Order = 0, RequireRestart = false, HintText = "{=TDAW_p4Q5r6S}Drop shields on death. [Default: disabled]")]
         [SettingPropertyGroup("{=TDAW_7m8N9o0}Shields", GroupOrder = 3)]
         public bool DropShields { get; set; } = false;
+        
+        [SettingPropertyBool("{=TDAW_q1W2e3R}Enable Diagnostics Logging", Order = 0, RequireRestart = false, HintText = "{=TDAW_t5Y6u7I}Log mission item/object counters every 10s to Modules/TroopsDropAllWeapons/TDAW_diagnostics.log and on screen. [Default: disabled]")]
+        [SettingPropertyGroup("{=TDAW_o8P9a0S}Debug", GroupOrder = 4)]
+        public bool EnableDiagnostics { get; set; } = false;
     }
 }

@@ -80,9 +80,11 @@ namespace TroopsDropAllWeapons
                 try
                 {
                     agent.DropItem(slot, primaryWeapon.WeaponClass);
+                    MissionDiagnosticsPatch.CountModDrop();
                 }
-                catch
+                catch (Exception e)
                 {
+                    DropWeaponPatch.LogDropFailure(e);
                 }
             }
 

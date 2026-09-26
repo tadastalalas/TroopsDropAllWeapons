@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Lascia cadere spade, asce, mazze, aste, pugnali e altre armi da mischia alla morte. [Predefinito: disabilitato]" />
 		<string id="TDAW_l1M2n3O" text="Lascia Cadere Scudi" />
 		<string id="TDAW_p4Q5r6S" text="Lascia cadere gli scudi alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_a7R8e9N" text="Ambito" />
+		<string id="TDAW_a1R2e3N" text="Solo Arena" />
+		<string id="TDAW_a4R5e6N" text="Lascia cadere le armi solo negli allenamenti in arena e nei tornei. [Predefinito: disattivato]" />
 	</strings>
 </base>

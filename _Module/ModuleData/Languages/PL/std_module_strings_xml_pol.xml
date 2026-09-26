@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Upuszcza miecze, topory, buzdygany, drzewca, sztylety i inną broń do walki wręcz po śmierci. [Domyślnie: wyłączone]" />
 		<string id="TDAW_l1M2n3O" text="Upuszczaj Tarcze" />
 		<string id="TDAW_p4Q5r6S" text="Upuszcza tarcze po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_a7R8e9N" text="Zakres" />
+		<string id="TDAW_a1R2e3N" text="Tylko Arena" />
+		<string id="TDAW_a4R5e6N" text="Upuszczaj broń tylko podczas treningów na arenie i turniejów. [Domyślnie: wyłączone]" />
 	</strings>
 </base>

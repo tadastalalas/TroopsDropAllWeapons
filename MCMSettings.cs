@@ -47,8 +47,12 @@ namespace TroopsDropAllWeapons
         [SettingPropertyGroup("{=TDAW_7m8N9o0}Shields", GroupOrder = 3)]
         public bool DropShields { get; set; } = false;
         
+        [SettingPropertyBool("{=TDAW_a1R2e3N}Arena Only", Order = 0, RequireRestart = false, HintText = "{=TDAW_a4R5e6N}Drop weapons only in arena practice and tournament missions. [Default: disabled]")]
+        [SettingPropertyGroup("{=TDAW_a7R8e9N}Scope", GroupOrder = 4)]
+        public bool ArenaOnly { get; set; } = false;
+        
         [SettingPropertyBool("{=TDAW_q1W2e3R}Enable Diagnostics Logging", Order = 0, RequireRestart = false, HintText = "{=TDAW_t5Y6u7I}Log mission item/object counters every 10s to Modules/TroopsDropAllWeapons/TDAW_diagnostics.log and on screen. [Default: disabled]")]
-        [SettingPropertyGroup("{=TDAW_o8P9a0S}Debug", GroupOrder = 4)]
+        [SettingPropertyGroup("{=TDAW_o8P9a0S}Debug", GroupOrder = 5)]
         public bool EnableDiagnostics { get; set; } = false;
     }
 }

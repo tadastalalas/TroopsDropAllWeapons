@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Derruba espadas, machados, maças, lanças, adagas e outras armas corpo a corpo ao morrer. [Padrão: desativado]" />
 		<string id="TDAW_l1M2n3O" text="Derrubar Escudos" />
 		<string id="TDAW_p4Q5r6S" text="Derruba escudos ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_a7R8e9N" text="Escopo" />
+		<string id="TDAW_a1R2e3N" text="Apenas na Arena" />
+		<string id="TDAW_a4R5e6N" text="Soltar armas apenas em treinos de arena e torneios. [Padrão: desativado]" />
 	</strings>
 </base>

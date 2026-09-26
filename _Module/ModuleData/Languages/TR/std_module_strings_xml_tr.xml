@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Ölümde kılıçları, baltaları, gürzleri, mızrakları, hançerleri ve diğer yakın dövüş silahlarını düşür. [Varsayılan: devre dışı]" />
 		<string id="TDAW_l1M2n3O" text="Kalkanları Düşür" />
 		<string id="TDAW_p4Q5r6S" text="Ölümde kalkanları düşür. [Varsayılan: devre dışı]" />
+		<string id="TDAW_a7R8e9N" text="Kapsam" />
+		<string id="TDAW_a1R2e3N" text="Sadece Arena" />
+		<string id="TDAW_a4R5e6N" text="Silahları sadece arena antrenmanlarında ve turnuvalarda düşür. [Varsayılan: devre dışı]" />
 	</strings>
 </base>

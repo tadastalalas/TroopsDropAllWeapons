@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="死亡時に剣、斧、メイス、ポールアーム、ダガーなどの近接武器を落とします。[デフォルト: 無効]" />
 		<string id="TDAW_l1M2n3O" text="盾を落とす" />
 		<string id="TDAW_p4Q5r6S" text="死亡時に盾を落とします。[デフォルト: 無効]" />
+		<string id="TDAW_a7R8e9N" text="適用範囲" />
+		<string id="TDAW_a1R2e3N" text="闘技場のみ" />
+		<string id="TDAW_a4R5e6N" text="闘技場の練習試合とトーナメントでのみ武器を落とす。[デフォルト：無効]" />
 	</strings>
 </base>

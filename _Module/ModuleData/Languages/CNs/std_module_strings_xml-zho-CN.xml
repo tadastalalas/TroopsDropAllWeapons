@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="死亡时掉落剑、斧、锤、长杆武器、匕首及其他近战武器。[默认：禁用]" />
 		<string id="TDAW_l1M2n3O" text="掉落盾牌" />
 		<string id="TDAW_p4Q5r6S" text="死亡时掉落盾牌。[默认：禁用]" />
+		<string id="TDAW_a7R8e9N" text="范围" />
+		<string id="TDAW_a1R2e3N" text="仅限竞技场" />
+		<string id="TDAW_a4R5e6N" text="仅在竞技场练习和锦标赛中掉落武器。[默认：禁用]" />
 	</strings>
 </base>

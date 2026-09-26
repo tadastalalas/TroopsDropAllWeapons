@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="사망 시 검, 도끼, 메이스, 폴암, 단검 및 기타 근접 무기를 떨어뜨립니다. [기본값: 비활성화]" />
 		<string id="TDAW_l1M2n3O" text="방패 드롭" />
 		<string id="TDAW_p4Q5r6S" text="사망 시 방패를 떨어뜨립니다. [기본값: 비활성화]" />
+		<string id="TDAW_a7R8e9N" text="적용 범위" />
+		<string id="TDAW_a1R2e3N" text="투기장 전용" />
+		<string id="TDAW_a4R5e6N" text="투기장 연습과 토너먼트에서만 무기를 떨어뜨립니다. [기본값: 비활성화]" />
 	</strings>
 </base>

@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Lässt beim Tod Schwerter, Äxte, Streitkolben, Stangenwaffen, Dolche und andere Nahkampfwaffen fallen. [Standard: deaktiviert]" />
 		<string id="TDAW_l1M2n3O" text="Schilde Fallen Lassen" />
 		<string id="TDAW_p4Q5r6S" text="Lässt beim Tod Schilde fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_a7R8e9N" text="Geltungsbereich" />
+		<string id="TDAW_a1R2e3N" text="Nur Arena" />
+		<string id="TDAW_a4R5e6N" text="Waffen nur im Arenatraining und bei Turnieren fallen lassen. [Standard: deaktiviert]" />
 	</strings>
 </base>

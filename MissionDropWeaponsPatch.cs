@@ -1,5 +1,7 @@
 using System;
 using HarmonyLib;
+using SandBox.Missions.MissionLogics.Arena;
+using SandBox.Tournaments.MissionLogics;
 using TaleWorlds.Core;
 using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
@@ -26,6 +28,9 @@ namespace TroopsDropAllWeapons
                 return;
 
             var settings = MCMSettings.Instance;
+            
+            if (settings?.ArenaOnly == true && !IsArenaMission(Mission.Current))
+                return;
 
             for (EquipmentIndex slot = EquipmentIndex.WeaponItemBeginSlot;
                  slot < EquipmentIndex.ExtraWeaponSlot;
@@ -118,5 +123,10 @@ namespace TroopsDropAllWeapons
                 _ => false,
             };
         }
+        
+        internal static bool IsArenaMission(Mission? mission) =>
+            mission != null
+            && (mission.HasMissionBehavior<ArenaPracticeFightMissionController>()
+                || mission.HasMissionBehavior<TournamentFightMissionController>());
     }
 }

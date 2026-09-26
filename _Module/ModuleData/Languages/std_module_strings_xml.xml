@@ -23,5 +23,8 @@
         <string id="TDAW_h7I8j9K" text="Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: disabled]" />
         <string id="TDAW_l1M2n3O" text="Drop Shields" />
         <string id="TDAW_p4Q5r6S" text="Drop shields on death. [Default: disabled]" />
+        <string id="TDAW_a7R8e9N" text="Scope" />
+        <string id="TDAW_a1R2e3N" text="Arena Only" />
+        <string id="TDAW_a4R5e6N" text="Drop weapons only in arena practice and tournament missions. [Default: disabled]" />
     </strings>
 </base>

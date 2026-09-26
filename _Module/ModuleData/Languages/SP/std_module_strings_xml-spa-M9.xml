@@ -23,5 +23,8 @@
 		<string id="TDAW_h7I8j9K" text="Suelta espadas, hachas, mazas, lanzas, dagas y otras armas cuerpo a cuerpo al morir. [Predeterminado: desactivado]" />
 		<string id="TDAW_l1M2n3O" text="Soltar Escudos" />
 		<string id="TDAW_p4Q5r6S" text="Suelta escudos al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_a7R8e9N" text="Alcance" />
+		<string id="TDAW_a1R2e3N" text="Solo Arena" />
+		<string id="TDAW_a4R5e6N" text="Soltar armas solo en entrenamientos de arena y torneos. [Predeterminado: desactivado]" />
 	</strings>
 </base>

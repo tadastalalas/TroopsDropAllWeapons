@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Zakres" />
 		<string id="TDAW_a1R2e3N" text="Tylko Arena" />
 		<string id="TDAW_a4R5e6N" text="Upuszczaj broń tylko podczas treningów na arenie i turniejów. [Domyślnie: wyłączone]" />
+		<string id="TDAW_Vk3qZ8w" text="Ustawienia techniczne" />
+		<string id="TDAW_mT6xR2j" text="Rejestrowanie do debugowania" />
+		<string id="TDAW_H9cLp4u" text="Rejestrowanie do debugowania (tylko w języku angielskim). [Domyślnie: wyłączone]" />
 	</strings>
 </base>

@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Escopo" />
 		<string id="TDAW_a1R2e3N" text="Apenas na Arena" />
 		<string id="TDAW_a4R5e6N" text="Soltar armas apenas em treinos de arena e torneios. [Padrão: desativado]" />
+		<string id="TDAW_Vk3qZ8w" text="Configurações técnicas" />
+		<string id="TDAW_mT6xR2j" text="Registro para depuração" />
+		<string id="TDAW_H9cLp4u" text="Registro para depuração (somente em inglês). [Padrão: desabilitado]" />
 	</strings>
 </base>

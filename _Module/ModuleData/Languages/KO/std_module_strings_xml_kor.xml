@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="적용 범위" />
 		<string id="TDAW_a1R2e3N" text="투기장 전용" />
 		<string id="TDAW_a4R5e6N" text="투기장 연습과 토너먼트에서만 무기를 떨어뜨립니다. [기본값: 비활성화]" />
+		<string id="TDAW_Vk3qZ8w" text="기술 설정" />
+		<string id="TDAW_mT6xR2j" text="디버깅을 위한 로깅" />
+		<string id="TDAW_H9cLp4u" text="디버깅을 위한 로깅(영어 전용). [기본값: 비활성화]" />
 	</strings>
 </base>

@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Область Действия" />
 		<string id="TDAW_a1R2e3N" text="Только Арена" />
 		<string id="TDAW_a4R5e6N" text="Ронять оружие только на тренировках на арене и турнирах. [По умолчанию: отключено]" />
+		<string id="TDAW_Vk3qZ8w" text="Технические настройки" />
+		<string id="TDAW_mT6xR2j" text="Логирование для отладки" />
+		<string id="TDAW_H9cLp4u" text="Логирование для отладки (только на английском). [По умолчанию: отключено]" />
 	</strings>
 </base>

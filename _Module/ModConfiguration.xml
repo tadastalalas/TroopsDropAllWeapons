@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModConfiguration>
+    <RangedAmmo>
+        <DropArrowsBolts>true</DropArrowsBolts>
+        <DropThrowingWeapons>true</DropThrowingWeapons>
+        <DoNotDropEmptyAmmo>true</DoNotDropEmptyAmmo>
+        <ApplyEmptyAmmoCheckToVanilla>true</ApplyEmptyAmmoCheckToVanilla>
+    </RangedAmmo>
+    <RangedWeapons>
+        <DropBowsCrossbows>false</DropBowsCrossbows>
+    </RangedWeapons>
+    <MeleeWeapons>
+        <DropMeleeWeapons>false</DropMeleeWeapons>
+    </MeleeWeapons>
+    <Shields>
+        <DropShields>false</DropShields>
+    </Shields>
+    <Scope>
+        <ArenaOnly>false</ArenaOnly>
+    </Scope>
+    <TechnicalSettings>
+        <LoggingEnabled>false</LoggingEnabled>
+    </TechnicalSettings>
+</ModConfiguration>

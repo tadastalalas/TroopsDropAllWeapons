@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="范围" />
 		<string id="TDAW_a1R2e3N" text="仅限竞技场" />
 		<string id="TDAW_a4R5e6N" text="仅在竞技场练习和锦标赛中掉落武器。[默认：禁用]" />
+		<string id="TDAW_Vk3qZ8w" text="技术设定" />
+		<string id="TDAW_mT6xR2j" text="除错日志" />
+		<string id="TDAW_H9cLp4u" text="除错日志（仅限英文）。[ 预设：停用 ]" />
 	</strings>
 </base>

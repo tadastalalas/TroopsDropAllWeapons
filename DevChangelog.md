@@ -1,0 +1,31 @@
+## TDAW v1.5.7.0
+
+- Migrated to the standard mod layout. No gameplay change; save compatibility: none (the mod saves nothing).
+- csproj: `Bannerlord.BuildResourcesLite.Sdk/1.2.3.41`, `netstandard2.0`, one DLL per game version (`$(ModuleId).v$(GameVersion)`) loaded by `Bannerlord.ModuleLoader.Injector` 1.0.1.50.
+  - `<Version>` 1.4.0 → 1.5.7.0. `ModuleName` → `Troops Drop All Weapons`.
+  - Removed `net472;net6` targets, game `HintPath` references, `Bannerlord.BuildResources`, `Nullable`, `IsExternalInit`, `Harmony.Extensions` (unused).
+  - `Bannerlord.MCM` `5.*` → `5.13.1`: the SDK copies the version text into `$mcmversion$`, `v5.*` is not a valid version.
+  - Kept `Lib.Harmony` 2.4.2 and `BUTR.Harmony.Analyzer` 1.0.1.50.
+- `_Module\SubModule.xml`: single `Bannerlord Module Loader` SubModule entry; Harmony first via `$harmonyversion$`; MCM optional (`DependedModuleMetadata` with `$mcmversion$`, no longer in `DependedModules`).
+  - Dropped the `StoryMode` and `CustomBattle` dependencies: no code uses them.
+- Files moved/split (namespace = folder, file-scoped):
+  - `MissionDropWeaponsPatch.cs` (`DropWeaponPatch`) → `Patches\MissionPatch.cs` `MissionOnAgentRemovedPatch`; drop rules → `Core\DropRules.cs`.
+  - `RuntimeIdAllocatorPatch.cs` → `Patches\MissionPatch.cs` `MissionGetFreeRuntimeMissionObjectIdPatch`, `MissionReturnRuntimeMissionObjectIdPatch`, `MissionRemoveSpawnedMissionObjectsPatch`; id queue → `Core\RuntimeIdPool.cs`. Method-level `[HarmonyPatch]`/`[HarmonyPrefix]` replaced by class-level attributes.
+  - `MissionDiagnosticsPatch.cs` → `Patches\MissionPatch.cs` `MissionOnTickPatch` + `Diagnostics\MissionDiagnostics.cs`. Unused `_emptyRuntimeMissionObjectIds` FieldInfo removed; high-water read via `RuntimeIdPool.HighWater`.
+  - `VanillaEmptyAmmoDropPatch.cs` → `Patches\AgentPatch.cs` `AgentPatch` (unused `pickedUpItemType` param removed).
+  - `ArtemCoreCompatibilityPatch.cs` → `Compat\ArtemCoreCompat.cs`: `AccessTools.TypeByName("ArtemCore.ArtemCore")` + `AccessTools.Method` (public static check kept), logs found/not found. Prefix renamed `Prefix`.
+  - `MCMSettings.cs` → `Data\MCMSettings.cs`.
+- Literals → `Core\Balance.cs`: `RuntimeIdCap` 8191, `RuntimeIdReuseCooldownSeconds` 30, `FreedRuntimeIdQueueCapacity` 1024, `DiagnosticsIntervalSeconds` 10, `ExhaustedFreedIdThreshold` 64.
+- `SubModule`: `ModSettings.Reload()` in `OnGameStart` (every game, campaign and custom battle). `PatchAll` still in `OnGameInitializationFinished`, `UnpatchAll` in `OnGameEnd`, Harmony id unchanged (`ModInfo.HarmonyId` = `TroopsDropAllWeapons`); assembly now passed explicitly to `PatchAll` (module loader).
+- Settings: MCM when loaded, else `_Module\ModConfiguration.xml` (`Core\ModSettings.cs`, `Data\ModConfiguration.cs`). Sections `RangedAmmo`, `RangedWeapons`, `MeleeWeapons`, `Shields`, `Scope`, `TechnicalSettings`; keys = the old MCM property names.
+  - Before: MCM `Instance == null` made every weapon class drop and disabled the vanilla empty-ammo patch; now the xml defaults apply.
+  - MCM `EnableDiagnostics` ("Debug" group) replaced by `LoggingEnabled` ("Technical settings", GroupOrder 5, default false).
+  - MCM Id `TroopsDropAllWeaponsSettings` kept (released).
+- Logging: `Diagnostics\TdawLog.cs` → `Modules\TroopsDropAllWeapons\logs\TroopsDropAllWeapons_<date>.log`.
+  - Mission counters: were `TDAW_diagnostics.log` + on-screen `InformationManager` messages; now `TdawLog.Debug` only.
+  - DropItem failure: was `Debug.Print` once; now `TdawLog.Error` once.
+- Texts: `Core\Texts.cs`; all `{=…}` literals moved there. Added `TDAW_Vk3qZ8w` Technical settings, `TDAW_mT6xR2j` Logging for debugging, `TDAW_H9cLp4u` its hint (English + 12 languages). Dropped the never-translated `TDAW_q1W2e3R`, `TDAW_t5Y6u7I`, `TDAW_o8P9a0S` (old diagnostics option). English xml re-indented with tabs.
+- Verified against 1.5.7 source, all unchanged, no `#if`: `Mission.OnAgentRemoved(Agent, Agent, AgentState, KillingBlow)` (internal), `Mission.OnTick(float dt, …)`, `Mission.GetFreeRuntimeMissionObjectId()`, `Mission.ReturnRuntimeMissionObjectId(int id)` (private), `Mission.RemoveSpawnedMissionObjects()` (private), fields `_lastRuntimeMissionObjectIdCount`, `_spawnedItemEntitiesCreatedAtRuntime`, `Agent.DropItem(EquipmentIndex, WeaponClass)`, `Agent.RemoveEquippedWeapon`, `SandBox.Missions.MissionLogics.Arena.ArenaPracticeFightMissionController`, `SandBox.Tournaments.MissionLogics.TournamentFightMissionController`, `WeaponClass.Cartridge/Pistol/Musket`.
+  - String-named targets (not compiler-checked): `OnAgentRemoved`, `ReturnRuntimeMissionObjectId`, `RemoveSpawnedMissionObjects`, the two field names, `ArtemCore.ArtemCore.DropAllWeapons(Agent)`.
+- No changelog existed: created `_Module\Changelog.txt`, this file, `FEATURES.md`, `.github\copilot-instructions.md`; rewrote `NexusDescription.txt` in the template style.
+- Test: `..\Build-AllVersions.ps1`; with and without MCM: battle drops per setting, Arena Only, empty quivers, ArtemCore (if available), `ModConfiguration.xml` missing/broken/partial, `logs\` file with Logging for debugging on.

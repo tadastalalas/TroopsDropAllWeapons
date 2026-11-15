@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="適用範囲" />
 		<string id="TDAW_a1R2e3N" text="闘技場のみ" />
 		<string id="TDAW_a4R5e6N" text="闘技場の練習試合とトーナメントでのみ武器を落とす。[デフォルト：無効]" />
+		<string id="TDAW_Vk3qZ8w" text="技術設定" />
+		<string id="TDAW_mT6xR2j" text="デバッグ用ログ" />
+		<string id="TDAW_H9cLp4u" text="デバッグ用ログ（英語のみ）。[デフォルト: 無効]" />
 	</strings>
 </base>

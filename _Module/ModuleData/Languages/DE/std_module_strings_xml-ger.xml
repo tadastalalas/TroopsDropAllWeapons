@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Geltungsbereich" />
 		<string id="TDAW_a1R2e3N" text="Nur Arena" />
 		<string id="TDAW_a4R5e6N" text="Waffen nur im Arenatraining und bei Turnieren fallen lassen. [Standard: deaktiviert]" />
+		<string id="TDAW_Vk3qZ8w" text="Technische Einstellungen" />
+		<string id="TDAW_mT6xR2j" text="Protokollierung für Debugging" />
+		<string id="TDAW_H9cLp4u" text="Protokollierung für Debugging (nur Englisch). [Standard: deaktiviert]" />
 	</strings>
 </base>

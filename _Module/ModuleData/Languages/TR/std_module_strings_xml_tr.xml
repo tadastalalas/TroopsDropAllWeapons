@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Kapsam" />
 		<string id="TDAW_a1R2e3N" text="Sadece Arena" />
 		<string id="TDAW_a4R5e6N" text="Silahları sadece arena antrenmanlarında ve turnuvalarda düşür. [Varsayılan: devre dışı]" />
+		<string id="TDAW_Vk3qZ8w" text="Teknik ayarlar" />
+		<string id="TDAW_mT6xR2j" text="Hata ayıklama için günlük kaydı" />
+		<string id="TDAW_H9cLp4u" text="Hata ayıklama için günlük kaydı (yalnızca İngilizce). [Varsayılan: devre dışı]" />
 	</strings>
 </base>

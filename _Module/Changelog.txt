@@ -1,0 +1,6 @@
+﻿TDAW v1.5.7.0 :
+
+- Updated for game version 1.5.7. Game versions 1.5.7, 1.4.8 and 1.4.7 are in the same download.
+- Mod Configuration Menu is no longer required. Without it, change the settings in Modules\TroopsDropAllWeapons\ModConfiguration.xml.
+- "Enable Diagnostics Logging" was replaced by "Logging for debugging" in the new "Technical settings" group (default: off).
+	It writes to Modules\TroopsDropAllWeapons\logs and no longer shows messages on screen.

@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Alcance" />
 		<string id="TDAW_a1R2e3N" text="Solo Arena" />
 		<string id="TDAW_a4R5e6N" text="Soltar armas solo en entrenamientos de arena y torneos. [Predeterminado: desactivado]" />
+		<string id="TDAW_Vk3qZ8w" text="Configuraciones técnicas" />
+		<string id="TDAW_mT6xR2j" text="Registro para depuración" />
+		<string id="TDAW_H9cLp4u" text="Registro para depuración (solo en inglés). [Predeterminado: desactivado]" />
 	</strings>
 </base>

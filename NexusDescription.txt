@@ -1,0 +1,73 @@
+[center][size=4]Troops [color=#93c47d]drop all their weapons[/color] on death, including [color=#93c47d]holstered[/color] ones.[/size]
+[size=4]Kill an archer who is holding his sword, and he also drops his [color=#93c47d]bow and arrows[/color]. The base game does not do that.[/size]
+
+[color=#93c47d][size=3]Supported game versions: 1.5.7, 1.4.8, 1.4.7.[/size][/color]
+
+[img]https://i.ibb.co/RTBcRpnt/Nexus-Desc.jpg[/img][/center]
+
+[color=#ffff00][size=4]Features[/size][/color]
+[color=#ffd966]Dying troops drop every weapon they carry, not only the one in their hands.[/color]
+[color=#93c47d]Choose what drops: arrows and bolts, throwing weapons, bows and crossbows, melee weapons, shields.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Empty quivers and pouches are not dropped.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Empty quivers that the base game drops are removed instead of lying on the ground, for better battle performance.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#ffd966]Can drop weapons only in arena practice and tournament fights.[/color] ([color=#6aa84f]on[/color]/[color=#e06666]off[/color])
+[color=#93c47d]Long battles with many items on the ground no longer run out of the game's internal object slots.[/color]
+[color=#ffd966]Works with or without Mod Configuration Menu.[/color]
+[color=#93c47d]Translations for 12 languages.[/color]
+
+[center][color=#6fa8dc][size=4]Additional languages included (using copilot ai translation)[/size][/color]
+Português (BR), 简体中文, 繁體中文, Deutsch, Français, Italiano, 日本語, 한국어, Polski, Русский, Español (LA), Türkçe[/center]
+
+[color=#ffff00][size=4]Settings[/size][/color]
+[color=#6fa8dc]Ranged Ammo[/color]
+[color=#ffd966]Drop Arrows/Bolts[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Drop Throwing Weapons[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Do Not Drop Empty Quivers/Pouches[/color] - default [color=#6aa84f]on[/color]
+[color=#ffd966]Also Apply To Vanilla Drops[/color] - default [color=#6aa84f]on[/color]
+[color=#6fa8dc]Ranged Weapons[/color]
+[color=#ffd966]Drop Bows/Crossbows[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Melee Weapons[/color]
+[color=#ffd966]Drop Melee Weapons[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Shields[/color]
+[color=#ffd966]Drop Shields[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Scope[/color]
+[color=#ffd966]Arena Only[/color] - default [color=#e06666]off[/color]
+[color=#6fa8dc]Technical settings[/color]
+[color=#ffd966]Logging for debugging[/color] - default [color=#e06666]off[/color]
+
+[color=#6fa8dc]With Mod Configuration Menu:[/color] change them in game under [color=#ffd966]Options > Mod Options[/color]. Changes apply at once.
+[color=#6fa8dc]Without Mod Configuration Menu:[/color] open [color=#ffd966]Modules[/color]\[color=#f1c232]TroopsDropAllWeapons[/color]\[color=#ffd966]ModConfiguration.xml[/color] in any text editor. The file is read every time a campaign or custom battle is started or loaded. If it is deleted or broken, the mod creates a new one with the default values.
+
+[color=#ffff00][size=4]Game versions[/size][/color]
+[color=#93c47d]1.5.7[/color], [color=#93c47d]1.4.8[/color], [color=#93c47d]1.4.7[/color] in the same download. The mod picks the right files for your game by itself.
+
+[color=#ffff00][size=4]Compatibility[/size][/color]
+Can be added/removed [color=#93c47d]anytime[/color].
+Does [color=#93c47d]not add data[/color] to save game files.
+Small Harmony patches on battle code (weapon drops on death, empty quiver drops, reuse of battle object slots).
+Compatibility patch included for [url=https://www.patreon.com/posts/artems-lively-146532586]Artem's Lively Animations[/url] - retreating troops [color=#93c47d]won't drop[/color] empty quivers / pouches.
+
+[color=#ffff00][size=4]Requirements[/size][/color]
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] - [color=#e06666]required[/color].
+[url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url] - [color=#6aa84f]optional[/color], for changing the settings in game.
+
+[color=#ffff00][size=4]Installation[/size][/color]
+Updating? [color=#e06666]Delete the old mod folder first[/color], never overwrite it.
+Advisable to use [color=#ffd966]7zip[/color] to extract archive.
+Put it in [color=#ffd966]Mount & Blade II Bannerlord[/color]\[color=#f1c232]Modules[/color] folder.
+Enable the mod in the launcher. [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2006]Harmony[/url] (and [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/612]Mod Configuration Menu[/url], if you use it) must be above it.
+
+[color=#ffff00][size=4]Found a problem?[/size][/color]
+Generate a crash report link using [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] mod. How to do that the mini guide is here: [url=http://bannerlordmodding.lt/guides/how_to_report_a_crash/]How To Report A Crash[/url]
+Turn on [color=#ffd966]Logging for debugging[/color] in [color=#ffd966]MCM[/color] settings or [color=#ffd966]ModConfiguration.xml[/color] in mod folder, [color=#f6b26b]repeat the problem[/color], then attach the file from [color=#ffd966]Modules[/color]\[color=#f1c232]TroopsDropAllWeapons[/color]\[color=#ffd966]logs[/color] to your [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/2018]ButterLib[/url] crash report.
+
+[color=#a4c2f4]General Credits:[/color]
+[url=https://next.nexusmods.com/profile/LesserScholar]Lesser Scholar[/url] who made extensive [url=https://www.youtube.com/watch?v=tOziMRXJ7tM&list=PLzebdAxJeltRwfJ8jzsNolgHkRvLjoCRC]Artisan Workshop Mod Tutorial[/url].
+[url=https://next.nexusmods.com/profile/LitauenLitauen]LitauenLitauen[/url] for his priceless modding documentation at [url=http://bannerlordmodding.lt/]BannerlordModding.lt[/url].
+Mount & Blade Modding community [url=https://discord.gg/TGpNRpXGQq]Discord Channel[/url].
+
+[color=#a4c2f4]Source On GitHub:[/color] [url=https://github.com/tadastalalas/TroopsDropAllWeapons]https://github.com/tadastalalas/TroopsDropAllWeapons[/url]
+[color=#a4c2f4]Issues, Suggestions & Other Miscellaneous:[/color] [url=https://discord.gg/NwS7yQgxvu]https://discord.gg/NwS7yQgxvu[/url]
+[color=#a4c2f4]Comprehensive Bannerlord Modding Guide:[/color] [url=https://www.nexusmods.com/mountandblade2bannerlord/mods/11354]Vanilla Plus Proper Modding Notes[/url]
+[color=#a4c2f4]Other Mods:[/color] [url=https://www.nexusmods.com/profile/TadasTheLithuanian/mods]TadasTheLithuanian Nexus Profile[/url]
+[color=#a4c2f4]Support Me On:[/color] [url=https://ko-fi.com/tadasthelithuanian]https://ko-fi.com/tadasthelithuanian[/url] [color=#a4c2f4]or[/color] [url=https://paypal.me/tadastalalas]https://paypal.me/tadastalalas[/url]

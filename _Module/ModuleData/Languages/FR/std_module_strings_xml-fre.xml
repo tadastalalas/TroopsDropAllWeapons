@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Portée" />
 		<string id="TDAW_a1R2e3N" text="Arène Uniquement" />
 		<string id="TDAW_a4R5e6N" text="Lâcher les armes uniquement lors des entraînements d'arène et des tournois. [Par défaut : désactivé]" />
+		<string id="TDAW_Vk3qZ8w" text="Paramètres techniques" />
+		<string id="TDAW_mT6xR2j" text="Journalisation pour le débogage" />
+		<string id="TDAW_H9cLp4u" text="Journalisation pour le débogage (anglais uniquement). [Par défaut : désactivé]" />
 	</strings>
 </base>

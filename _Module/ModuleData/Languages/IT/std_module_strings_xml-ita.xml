@@ -26,5 +26,8 @@
 		<string id="TDAW_a7R8e9N" text="Ambito" />
 		<string id="TDAW_a1R2e3N" text="Solo Arena" />
 		<string id="TDAW_a4R5e6N" text="Lascia cadere le armi solo negli allenamenti in arena e nei tornei. [Predefinito: disattivato]" />
+		<string id="TDAW_Vk3qZ8w" text="Impostazioni tecniche" />
+		<string id="TDAW_mT6xR2j" text="Registrazione per il debug" />
+		<string id="TDAW_H9cLp4u" text="Registrazione per il debug (solo in inglese). [Predefinito: disabilitato]" />
 	</strings>
 </base>

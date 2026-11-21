@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="バニラのドロップにも適用する" />
 		<string id="TDAW_r4S5t6U" text="バニラの空の矢筒ドロップを地面に生成する代わりに、装備から取り除きます。ミッションのパフォーマンスが向上します。[デフォルト: 有効]" />
 		<string id="TDAW_v7W8x9Y" text="弓/クロスボウを落とす" />
-		<string id="TDAW_z1A2b3C" text="死亡時に弓、クロスボウ、スリングを落とします。[デフォルト: 無効]" />
+		<string id="TDAW_z1A2b3C" text="死亡時に弓、クロスボウ、スリングを落とします。[デフォルト: 有効]" />
 		<string id="TDAW_d4E5f6G" text="近接武器を落とす" />
-		<string id="TDAW_h7I8j9K" text="死亡時に剣、斧、メイス、ポールアーム、ダガーなどの近接武器を落とします。[デフォルト: 無効]" />
+		<string id="TDAW_h7I8j9K" text="死亡時に剣、斧、メイス、ポールアーム、ダガーなどの近接武器を落とします。[デフォルト: 有効]" />
 		<string id="TDAW_l1M2n3O" text="盾を落とす" />
-		<string id="TDAW_p4Q5r6S" text="死亡時に盾を落とします。[デフォルト: 無効]" />
+		<string id="TDAW_p4Q5r6S" text="死亡時に盾を落とします。[デフォルト: 有効]" />
 		<string id="TDAW_a7R8e9N" text="適用範囲" />
 		<string id="TDAW_a1R2e3N" text="闘技場のみ" />
 		<string id="TDAW_a4R5e6N" text="闘技場の練習試合とトーナメントでのみ武器を落とす。[デフォルト：無効]" />

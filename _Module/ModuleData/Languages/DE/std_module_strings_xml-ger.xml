@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Auch auf Vanilla-Drops Anwenden" />
 		<string id="TDAW_r4S5t6U" text="Fängt Vanilla-Drops leerer Köcher ab und entfernt sie aus der Ausrüstung, anstatt sie auf dem Boden zu erzeugen. Verbessert die Missionsleistung. [Standard: aktiviert]" />
 		<string id="TDAW_v7W8x9Y" text="Bögen/Armbrüste Fallen Lassen" />
-		<string id="TDAW_z1A2b3C" text="Lässt beim Tod Bögen, Armbrüste und Schleudern fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_z1A2b3C" text="Lässt beim Tod Bögen, Armbrüste und Schleudern fallen. [Standard: aktiviert]" />
 		<string id="TDAW_d4E5f6G" text="Nahkampfwaffen Fallen Lassen" />
-		<string id="TDAW_h7I8j9K" text="Lässt beim Tod Schwerter, Äxte, Streitkolben, Stangenwaffen, Dolche und andere Nahkampfwaffen fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_h7I8j9K" text="Lässt beim Tod Schwerter, Äxte, Streitkolben, Stangenwaffen, Dolche und andere Nahkampfwaffen fallen. [Standard: aktiviert]" />
 		<string id="TDAW_l1M2n3O" text="Schilde Fallen Lassen" />
-		<string id="TDAW_p4Q5r6S" text="Lässt beim Tod Schilde fallen. [Standard: deaktiviert]" />
+		<string id="TDAW_p4Q5r6S" text="Lässt beim Tod Schilde fallen. [Standard: aktiviert]" />
 		<string id="TDAW_a7R8e9N" text="Geltungsbereich" />
 		<string id="TDAW_a1R2e3N" text="Nur Arena" />
 		<string id="TDAW_a4R5e6N" text="Waffen nur im Arenatraining und bei Turnieren fallen lassen. [Standard: deaktiviert]" />

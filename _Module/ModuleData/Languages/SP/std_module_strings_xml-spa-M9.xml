@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Aplicar También a las Caídas Originales" />
 		<string id="TDAW_r4S5t6U" text="Intercepta las caídas de carcajes vacíos originales y las elimina del equipo en lugar de generarlas en el suelo. Mejora el rendimiento de la misión. [Predeterminado: activado]" />
 		<string id="TDAW_v7W8x9Y" text="Soltar Arcos/Ballestas" />
-		<string id="TDAW_z1A2b3C" text="Suelta arcos, ballestas y hondas al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_z1A2b3C" text="Suelta arcos, ballestas y hondas al morir. [Predeterminado: activado]" />
 		<string id="TDAW_d4E5f6G" text="Soltar Armas Cuerpo a Cuerpo" />
-		<string id="TDAW_h7I8j9K" text="Suelta espadas, hachas, mazas, lanzas, dagas y otras armas cuerpo a cuerpo al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_h7I8j9K" text="Suelta espadas, hachas, mazas, lanzas, dagas y otras armas cuerpo a cuerpo al morir. [Predeterminado: activado]" />
 		<string id="TDAW_l1M2n3O" text="Soltar Escudos" />
-		<string id="TDAW_p4Q5r6S" text="Suelta escudos al morir. [Predeterminado: desactivado]" />
+		<string id="TDAW_p4Q5r6S" text="Suelta escudos al morir. [Predeterminado: activado]" />
 		<string id="TDAW_a7R8e9N" text="Alcance" />
 		<string id="TDAW_a1R2e3N" text="Solo Arena" />
 		<string id="TDAW_a4R5e6N" text="Soltar armas solo en entrenamientos de arena y torneos. [Predeterminado: desactivado]" />

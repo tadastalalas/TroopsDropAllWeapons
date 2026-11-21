@@ -1,4 +1,10 @@
-﻿TDAW v1.5.7.0 :
+﻿TDAW v1.5.7.1 :
+
+- Fixed a crash or the mod stopping to work after loading a save while already playing another one.
+- "Drop Bows/Crossbows", "Drop Melee Weapons" and "Drop Shields" are now on by default.
+	With Mod Configuration Menu your saved choices are kept; use its reset button to get the new defaults.
+
+TDAW v1.5.7.0 :
 
 - Updated for game version 1.5.7. Game versions 1.5.7, 1.4.8 and 1.4.7 are in the same download.
 - Mod Configuration Menu is no longer required. Without it, change the settings in Modules\TroopsDropAllWeapons\ModConfiguration.xml.

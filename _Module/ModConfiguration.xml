@@ -7,13 +7,13 @@
         <ApplyEmptyAmmoCheckToVanilla>true</ApplyEmptyAmmoCheckToVanilla>
     </RangedAmmo>
     <RangedWeapons>
-        <DropBowsCrossbows>false</DropBowsCrossbows>
+        <DropBowsCrossbows>true</DropBowsCrossbows>
     </RangedWeapons>
     <MeleeWeapons>
-        <DropMeleeWeapons>false</DropMeleeWeapons>
+        <DropMeleeWeapons>true</DropMeleeWeapons>
     </MeleeWeapons>
     <Shields>
-        <DropShields>false</DropShields>
+        <DropShields>true</DropShields>
     </Shields>
     <Scope>
         <ArenaOnly>false</ArenaOnly>

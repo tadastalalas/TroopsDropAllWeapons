@@ -1,3 +1,15 @@
+## TDAW v1.5.7.1
+
+- Harmony id `TroopsDropAllWeapons` → `TroopsDropAllWeapons.Harmony` (`Core\ModInfo.cs` `HarmonyId` = `ModuleId + ".Harmony"`).
+  - Why: `Bannerlord.ModuleLoader.TroopsDropAllWeapons` patches under the ModuleId; `UnpatchAll(ModInfo.HarmonyId)` in `SubModule.OnGameEnd` removed the loader's patches too, so a second save loaded in the same session got no `OnGameStart` (no settings reload) and no patches.
+  - `PatchAll(typeof(SubModule).Assembly)` was already explicit: unchanged. `SubModule.cs`, `Compat\ArtemCoreCompat.cs` already use `ModInfo.HarmonyId`: unchanged.
+  - No other mod in `My Mod Creation` references the old id.
+- Defaults `DropBowsCrossbows`, `DropMeleeWeapons`, `DropShields` false → true (`Data\ModConfiguration.cs`, `_Module\ModConfiguration.xml`; MCM uses the same constants).
+  - Hints `TDAW_z1A2b3C`, `TDAW_h7I8j9K`, `TDAW_p4Q5r6S`: `[Default: disabled]` → `[Default: enabled]` in `Core\Texts.cs`, English + 12 languages (ids unchanged). `NexusDescription.txt` defaults updated.
+  - Existing MCM saves (`TroopsDropAllWeaponsSettings`) keep their stored values.
+- Save compatibility: none (the mod saves nothing).
+- Test: `..\Build-AllVersions.ps1`; Release build, load a save, troops drop bows/melee/shields; load another save without restarting, drops still work; delete `ModConfiguration.xml` → recreated with the new defaults.
+
 ## TDAW v1.5.7.0
 
 - Migrated to the standard mod layout. No gameplay change; save compatibility: none (the mod saves nothing).

@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="同時套用於原版掉落" />
 		<string id="TDAW_r4S5t6U" text="攔截原版的空箭袋掉落，將其從裝備中移除，而非生成到地面上。可提升任務效能。[預設：啟用]" />
 		<string id="TDAW_v7W8x9Y" text="掉落弓/弩" />
-		<string id="TDAW_z1A2b3C" text="死亡時掉落弓、弩和投石索。[預設：停用]" />
+		<string id="TDAW_z1A2b3C" text="死亡時掉落弓、弩和投石索。[預設：啟用]" />
 		<string id="TDAW_d4E5f6G" text="掉落近戰武器" />
-		<string id="TDAW_h7I8j9K" text="死亡時掉落劍、斧、錘、長桿武器、匕首及其他近戰武器。[預設：停用]" />
+		<string id="TDAW_h7I8j9K" text="死亡時掉落劍、斧、錘、長桿武器、匕首及其他近戰武器。[預設：啟用]" />
 		<string id="TDAW_l1M2n3O" text="掉落盾牌" />
-		<string id="TDAW_p4Q5r6S" text="死亡時掉落盾牌。[預設：停用]" />
+		<string id="TDAW_p4Q5r6S" text="死亡時掉落盾牌。[預設：啟用]" />
 		<string id="TDAW_a7R8e9N" text="範圍" />
 		<string id="TDAW_a1R2e3N" text="僅限競技場" />
 		<string id="TDAW_a4R5e6N" text="僅在競技場練習和錦標賽中掉落武器。[預設：停用]" />

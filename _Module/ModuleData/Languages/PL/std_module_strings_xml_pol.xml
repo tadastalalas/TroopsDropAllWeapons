@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Zastosuj Również do Domyślnych Upuszczeń Gry" />
 		<string id="TDAW_r4S5t6U" text="Przechwytuje domyślne upuszczenia pustych kołczanów gry i usuwa je z ekwipunku zamiast tworzyć je na ziemi. Poprawia wydajność misji. [Domyślnie: włączone]" />
 		<string id="TDAW_v7W8x9Y" text="Upuszczaj Łuki/Kusze" />
-		<string id="TDAW_z1A2b3C" text="Upuszcza łuki, kusze i procy po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_z1A2b3C" text="Upuszcza łuki, kusze i procy po śmierci. [Domyślnie: włączone]" />
 		<string id="TDAW_d4E5f6G" text="Upuszczaj Broń Do Walki Wręcz" />
-		<string id="TDAW_h7I8j9K" text="Upuszcza miecze, topory, buzdygany, drzewca, sztylety i inną broń do walki wręcz po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_h7I8j9K" text="Upuszcza miecze, topory, buzdygany, drzewca, sztylety i inną broń do walki wręcz po śmierci. [Domyślnie: włączone]" />
 		<string id="TDAW_l1M2n3O" text="Upuszczaj Tarcze" />
-		<string id="TDAW_p4Q5r6S" text="Upuszcza tarcze po śmierci. [Domyślnie: wyłączone]" />
+		<string id="TDAW_p4Q5r6S" text="Upuszcza tarcze po śmierci. [Domyślnie: włączone]" />
 		<string id="TDAW_a7R8e9N" text="Zakres" />
 		<string id="TDAW_a1R2e3N" text="Tylko Arena" />
 		<string id="TDAW_a4R5e6N" text="Upuszczaj broń tylko podczas treningów na arenie i turniejów. [Domyślnie: wyłączone]" />

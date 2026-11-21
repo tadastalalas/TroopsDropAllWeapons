@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Also Apply To Vanilla Drops" />
 		<string id="TDAW_r4S5t6U" text="Intercept vanilla empty-quiver drops and remove them from equipment instead of spawning them on the ground. Improves Mission performance. [Default: enabled]" />
 		<string id="TDAW_v7W8x9Y" text="Drop Bows/Crossbows" />
-		<string id="TDAW_z1A2b3C" text="Drop bows, crossbows, and slings on death. [Default: disabled]" />
+		<string id="TDAW_z1A2b3C" text="Drop bows, crossbows, and slings on death. [Default: enabled]" />
 		<string id="TDAW_d4E5f6G" text="Drop Melee Weapons" />
-		<string id="TDAW_h7I8j9K" text="Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: disabled]" />
+		<string id="TDAW_h7I8j9K" text="Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: enabled]" />
 		<string id="TDAW_l1M2n3O" text="Drop Shields" />
-		<string id="TDAW_p4Q5r6S" text="Drop shields on death. [Default: disabled]" />
+		<string id="TDAW_p4Q5r6S" text="Drop shields on death. [Default: enabled]" />
 		<string id="TDAW_a7R8e9N" text="Scope" />
 		<string id="TDAW_a1R2e3N" text="Arena Only" />
 		<string id="TDAW_a4R5e6N" text="Drop weapons only in arena practice and tournament missions. [Default: disabled]" />

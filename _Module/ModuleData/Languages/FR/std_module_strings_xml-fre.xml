@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Appliquer Aussi aux Chutes Natives du Jeu" />
 		<string id="TDAW_r4S5t6U" text="Intercepte les chutes de carquois vides natives du jeu et les retire de l'équipement au lieu de les faire apparaître au sol. Améliore les performances de la mission. [Par défaut : activé]" />
 		<string id="TDAW_v7W8x9Y" text="Faire Tomber les Arcs/Arbalètes" />
-		<string id="TDAW_z1A2b3C" text="Fait tomber les arcs, arbalètes et frondes à la mort. [Par défaut : désactivé]" />
+		<string id="TDAW_z1A2b3C" text="Fait tomber les arcs, arbalètes et frondes à la mort. [Par défaut : activé]" />
 		<string id="TDAW_d4E5f6G" text="Faire Tomber les Armes de Mêlée" />
-		<string id="TDAW_h7I8j9K" text="Fait tomber les épées, haches, masses, armes d'hast, dagues et autres armes de mêlée à la mort. [Par défaut : désactivé]" />
+		<string id="TDAW_h7I8j9K" text="Fait tomber les épées, haches, masses, armes d'hast, dagues et autres armes de mêlée à la mort. [Par défaut : activé]" />
 		<string id="TDAW_l1M2n3O" text="Faire Tomber les Boucliers" />
-		<string id="TDAW_p4Q5r6S" text="Fait tomber les boucliers à la mort. [Par défaut : désactivé]" />
+		<string id="TDAW_p4Q5r6S" text="Fait tomber les boucliers à la mort. [Par défaut : activé]" />
 		<string id="TDAW_a7R8e9N" text="Portée" />
 		<string id="TDAW_a1R2e3N" text="Arène Uniquement" />
 		<string id="TDAW_a4R5e6N" text="Lâcher les armes uniquement lors des entraînements d'arène et des tournois. [Par défaut : désactivé]" />

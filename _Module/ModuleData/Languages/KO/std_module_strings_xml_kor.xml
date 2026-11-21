@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="바닐라 드롭에도 적용" />
 		<string id="TDAW_r4S5t6U" text="바닐라의 빈 화살통 드롭을 가로채어 바닥에 생성하는 대신 장비에서 제거합니다. 미션 성능이 향상됩니다. [기본값: 활성화]" />
 		<string id="TDAW_v7W8x9Y" text="활/석궁 드롭" />
-		<string id="TDAW_z1A2b3C" text="사망 시 활, 석궁, 슬링을 떨어뜨립니다. [기본값: 비활성화]" />
+		<string id="TDAW_z1A2b3C" text="사망 시 활, 석궁, 슬링을 떨어뜨립니다. [기본값: 활성화]" />
 		<string id="TDAW_d4E5f6G" text="근접 무기 드롭" />
-		<string id="TDAW_h7I8j9K" text="사망 시 검, 도끼, 메이스, 폴암, 단검 및 기타 근접 무기를 떨어뜨립니다. [기본값: 비활성화]" />
+		<string id="TDAW_h7I8j9K" text="사망 시 검, 도끼, 메이스, 폴암, 단검 및 기타 근접 무기를 떨어뜨립니다. [기본값: 활성화]" />
 		<string id="TDAW_l1M2n3O" text="방패 드롭" />
-		<string id="TDAW_p4Q5r6S" text="사망 시 방패를 떨어뜨립니다. [기본값: 비활성화]" />
+		<string id="TDAW_p4Q5r6S" text="사망 시 방패를 떨어뜨립니다. [기본값: 활성화]" />
 		<string id="TDAW_a7R8e9N" text="적용 범위" />
 		<string id="TDAW_a1R2e3N" text="투기장 전용" />
 		<string id="TDAW_a4R5e6N" text="투기장 연습과 토너먼트에서만 무기를 떨어뜨립니다. [기본값: 비활성화]" />

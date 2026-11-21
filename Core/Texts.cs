@@ -25,11 +25,11 @@ internal static class Texts
         public const string ApplyEmptyAmmoCheckToVanilla = "{=TDAW_n1O2p3Q}Also Apply To Vanilla Drops";
         public const string ApplyEmptyAmmoCheckToVanillaHint = "{=TDAW_r4S5t6U}Intercept vanilla empty-quiver drops and remove them from equipment instead of spawning them on the ground. Improves Mission performance. [Default: enabled]";
         public const string DropBowsCrossbows = "{=TDAW_v7W8x9Y}Drop Bows/Crossbows";
-        public const string DropBowsCrossbowsHint = "{=TDAW_z1A2b3C}Drop bows, crossbows, and slings on death. [Default: disabled]";
+        public const string DropBowsCrossbowsHint = "{=TDAW_z1A2b3C}Drop bows, crossbows, and slings on death. [Default: enabled]";
         public const string DropMeleeWeapons = "{=TDAW_d4E5f6G}Drop Melee Weapons";
-        public const string DropMeleeWeaponsHint = "{=TDAW_h7I8j9K}Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: disabled]";
+        public const string DropMeleeWeaponsHint = "{=TDAW_h7I8j9K}Drop swords, axes, maces, polearms, daggers, and other melee weapons on death. [Default: enabled]";
         public const string DropShields = "{=TDAW_l1M2n3O}Drop Shields";
-        public const string DropShieldsHint = "{=TDAW_p4Q5r6S}Drop shields on death. [Default: disabled]";
+        public const string DropShieldsHint = "{=TDAW_p4Q5r6S}Drop shields on death. [Default: enabled]";
         public const string GroupScope = "{=TDAW_a7R8e9N}Scope";
         public const string ArenaOnly = "{=TDAW_a1R2e3N}Arena Only";
         public const string ArenaOnlyHint = "{=TDAW_a4R5e6N}Drop weapons only in arena practice and tournament missions. [Default: disabled]";

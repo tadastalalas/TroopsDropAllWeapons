@@ -8,9 +8,9 @@ public class ModConfiguration
     public const bool DropThrowingWeaponsDefault = true;
     public const bool DoNotDropEmptyAmmoDefault = true;
     public const bool ApplyEmptyAmmoCheckToVanillaDefault = true;
-    public const bool DropBowsCrossbowsDefault = false;
-    public const bool DropMeleeWeaponsDefault = false;
-    public const bool DropShieldsDefault = false;
+    public const bool DropBowsCrossbowsDefault = true;
+    public const bool DropMeleeWeaponsDefault = true;
+    public const bool DropShieldsDefault = true;
     public const bool ArenaOnlyDefault = false;
     public const bool LoggingEnabledDefault = false;
 

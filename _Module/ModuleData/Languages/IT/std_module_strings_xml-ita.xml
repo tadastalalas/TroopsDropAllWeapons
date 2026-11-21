@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Applica Anche ai Drop Vanilla" />
 		<string id="TDAW_r4S5t6U" text="Intercetta i drop vanilla delle faretre vuote e li rimuove dall'equipaggiamento invece di farli comparire a terra. Migliora le prestazioni della missione. [Predefinito: abilitato]" />
 		<string id="TDAW_v7W8x9Y" text="Lascia Cadere Archi/Balestre" />
-		<string id="TDAW_z1A2b3C" text="Lascia cadere archi, balestre e fionde alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_z1A2b3C" text="Lascia cadere archi, balestre e fionde alla morte. [Predefinito: abilitato]" />
 		<string id="TDAW_d4E5f6G" text="Lascia Cadere Armi da Mischia" />
-		<string id="TDAW_h7I8j9K" text="Lascia cadere spade, asce, mazze, aste, pugnali e altre armi da mischia alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_h7I8j9K" text="Lascia cadere spade, asce, mazze, aste, pugnali e altre armi da mischia alla morte. [Predefinito: abilitato]" />
 		<string id="TDAW_l1M2n3O" text="Lascia Cadere Scudi" />
-		<string id="TDAW_p4Q5r6S" text="Lascia cadere gli scudi alla morte. [Predefinito: disabilitato]" />
+		<string id="TDAW_p4Q5r6S" text="Lascia cadere gli scudi alla morte. [Predefinito: abilitato]" />
 		<string id="TDAW_a7R8e9N" text="Ambito" />
 		<string id="TDAW_a1R2e3N" text="Solo Arena" />
 		<string id="TDAW_a4R5e6N" text="Lascia cadere le armi solo negli allenamenti in arena e nei tornei. [Predefinito: disattivato]" />

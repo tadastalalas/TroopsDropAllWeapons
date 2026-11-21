@@ -18,11 +18,11 @@
 		<string id="TDAW_n1O2p3Q" text="Aplicar Também às Quedas Originais do Jogo" />
 		<string id="TDAW_r4S5t6U" text="Intercepta as quedas de aljavas vazias do jogo original e as remove do equipamento em vez de gerá-las no chão. Melhora o desempenho da missão. [Padrão: ativado]" />
 		<string id="TDAW_v7W8x9Y" text="Derrubar Arcos/Bestas" />
-		<string id="TDAW_z1A2b3C" text="Derruba arcos, bestas e fundas ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_z1A2b3C" text="Derruba arcos, bestas e fundas ao morrer. [Padrão: ativado]" />
 		<string id="TDAW_d4E5f6G" text="Derrubar Armas Corpo a Corpo" />
-		<string id="TDAW_h7I8j9K" text="Derruba espadas, machados, maças, lanças, adagas e outras armas corpo a corpo ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_h7I8j9K" text="Derruba espadas, machados, maças, lanças, adagas e outras armas corpo a corpo ao morrer. [Padrão: ativado]" />
 		<string id="TDAW_l1M2n3O" text="Derrubar Escudos" />
-		<string id="TDAW_p4Q5r6S" text="Derruba escudos ao morrer. [Padrão: desativado]" />
+		<string id="TDAW_p4Q5r6S" text="Derruba escudos ao morrer. [Padrão: ativado]" />
 		<string id="TDAW_a7R8e9N" text="Escopo" />
 		<string id="TDAW_a1R2e3N" text="Apenas na Arena" />
 		<string id="TDAW_a4R5e6N" text="Soltar armas apenas em treinos de arena e torneios. [Padrão: desativado]" />

@@ -3,7 +3,7 @@ TroopsDropAllWeapons: workspace instructions. They override the global file.
 - <Prefix>: TDAW (Tdaw in type names). <Root> namespace and ModuleId: TroopsDropAllWeapons.
 - Logger: `Diagnostics\TdawLog.cs` (Debug / Warn / Error).
 - Harmony: PatchAll runs in `SubModule.OnGameInitializationFinished` (assembly passed explicitly), UnpatchAll in `OnGameEnd`,
-  Harmony id "TroopsDropAllWeapons" (`Core\ModInfo.cs` HarmonyId). Patches are inactive before the first game finishes initializing.
+  Harmony id "TroopsDropAllWeapons.Harmony" (`Core\ModInfo.cs` HarmonyId, never the ModuleId). Patches are inactive before the first game finishes initializing.
 - `ModSettings.Reload()` runs in `SubModule.OnGameStart` for every game (campaign and custom battle), not only campaigns.
 - Patches: `Patches\MissionPatch.cs` (OnAgentRemoved, OnTick, runtime id pool), `Patches\AgentPatch.cs` (DropItem).
   Optional mod: `Compat\ArtemCoreCompat.cs` (ArtemCore.ArtemCore.DropAllWeapons), applied after PatchAll.
